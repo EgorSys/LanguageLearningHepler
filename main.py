@@ -1,11 +1,11 @@
-from lib import *
-
-
-def main():
-    text = open('text.txt','r', encoding='utf8').read()
-    distribution = get_dist(text)
-    print(distribution.most_common())
-
+from tkinter import *
+from Program import *
 
 if __name__ == '__main__':
-    main()
+    root = Tk()
+    root.geometry('520x400+350+200')
+
+    program = Program(root)
+    program.pack()
+
+    root.mainloop()
