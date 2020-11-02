@@ -15,10 +15,10 @@ def get_importance():
     tokenized = word_tokenize(common_in_language.read().decode('utf-8'))
     return {el: i for i, el in enumerate(tokenized)}
 
-def get_relevant(txtfreq, globrank):
+def get_relevant(txtfreq, globrank, k):
     def measure(x):
         try:
-            return txtfreq[x]*(-abs(globrank[x]-(len(globrank)//2))+(len(globrank)//2))
+            return txtfreq[x]*(-abs(globrank[x]-int(k*len(globrank)))+(len(globrank)//2))
         except KeyError:
             return float('-inf')
     ans = []
@@ -26,5 +26,9 @@ def get_relevant(txtfreq, globrank):
         ans.append(i)
     return ans
 
+'''
+def get_hlexis_rating(globrank, words):
+    return 
+'''
 
 #def needed_words(text)
