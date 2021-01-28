@@ -1,9 +1,127 @@
-Writing task, Egor Sysoev
-1.
-The diagram illustrates information about the evolution of the horse over a period of 40 million years with particular emphasis on the foot structure. There are four main stages in the process, form Eohippus to the modern horse.
-The earliest form of the horse is called Eohippus, which was significantly smaller than our modern horse and had no mane on its upper back. After that, 10 million years later, Mesohippus replaces it, having a more muscular body. The next stage is Merichippus, which had a distinct mane on its upper back and head as well as a walking posture resembling that of a modern horse. The last stage is the modern horse.
-Now let us look at the foot structure. The foot of Eohippus had 4 fingers. Having passed that stage, Mesohippus had only 3 fingers, one of which was noticeably larger than the other two. After that, in Merichippus we see further development is the size of the middle finger as well as bone mass of the foot in general. Finally, the foot of the modern horse consists of only one hoof, with no additional fingers.
-2.
-With the worldwide development of technology and the subsequent need for specialists in that area, we see a clear dominance of technical subjects starting from secondary school. But there is an opinion that the school system should introduce more art-based subjects into the obligatory curriculum. I personally believe that students already have a big enough study load and that adding more obligatory classes further fuels existing stress problems.
-Most teenagers around the world do not enjoy their classes in secondary school. This is largely due to puberty being mixed with an increase in pressure from primary school. So it is no surprise that the vast majority of students hate going to school at that age. Some people think that adding art subjects somehow will make the learning process fun, but the reality is that teenagers don’t want to be forced to study anything regardless of the field. If a person dreams of becoming a mechanic, being obliged to study art and music may torture for them. Thus, keeping the number of obligatory subjects in secondary school as low as possible is the best course of action.
-To sum up, increasing the amount of studies in secondary school will put further stress on the students, regardless of whether it is an art-based subject or not.
+Wind turbines
+A report on the principles of operation and applications
+by Danila Kuklianov (bachelor Science & Technology)
+In this report we are going to talk about wind turbines: their history, applications and
+classification and the physical forces making them work.
+A wind turbine is a device that converts the wind's kinetic energy into electrical energy for
+use in other devices. It does that by means of a rotor (shape dependent on the type of the
+turbine) rotated by wind, which through this movement transfers the energy to the electrical
+generator within, producing electrical power.
+Wind turbines vary in size and shape, and thus find many applications throughout the
+world. Wind energy being renewable, wind turbines are becoming increasingly important in
+cutting down on fossil fuel use. They are also deemed the least polluting of renewable energy
+sources.
+History and the Modern day
+Before the mass electrification, structures akin to the modern wind turbines have been
+used to transfer the kinetic energy of the wind to other devices, most notably, millstones used
+to grind grain or pumps used to move water.
+The first concepted device based on this concept was described at some point in 10-70 AD.
+However, earliest practical application arises around the 7th century AD in the form of verticalaxle windmills. First mentions of wind power usage in Europe is dated as 11th or 12th century,
+and by 14th century it finds industrial use, as the Dutch used wind-powered pumps to drain
+parts of the Rhein delta.
+The first wind turbine to generate electricity was installed in 1887 by a Scottish academic
+to charge batteries. Soon after wind turbines were successfully peer-reviewed for electricity
+production in the US. Despite that, at least until WWI most wind turbines were still used to
+translate kinetic energy to mechanical devices - it is reported that in Denmark alone, the
+potential peak mechanical power output of wind turbines was around 30 MW by 1900.
+First horizontal-axis turbine similar to the modern counterpart in both structure and
+effectiveness was built in Yalta, USSR in 1931. First megawatt-class wind turbines would go on
+to be built in the US, UK and elsewhere from 1941; however, until 1970s there was little
+opportunity for wind turbine improvement as fossil fuel systems improved quicker and paid off
+sooner. Only then, anti-nuclear protests spurring artisans to develop micro wind turbines lead
+to a trend for improvement and enlargement of wind turbines.
+In the 21st century, the increasing oil prices and global climate concerns have amplified the
+trend of growth of renewable energy; for our current interests, it lead to wind turbines
+increasing in size quickly (as can be seen on fig.1) and many solutions for the lack of space for
+building turbines being concepted and implemented, such as offshore/floating wind turbines.
+As of 2019, the total wind power in the world amounted to 6% of the world's electrical power
+production, which sets it at around 1400 TW of power annually.
+Classification and Structures
+Wind turbines can primarily be classified into vertical axis wind turbines (VAWTs) and
+horizontal axis wind turbines (HAWTs). Further subdivision exists within the types, as well as
+several "unconventional" wind turbine concepts.
+HAWTs, specifically ones with 3 blades, constitute the vast majority of the currently
+available commercial wind turbines. They work having the rotation axis oriented parallel to the
+wind direction, turned by either a wind vane or a yaw system, with blades positioned in front of
+the generator compartment (called upwind rotor). Unconventional HAWTs include designs with
+downwind rotors - behind the generator, ducted rotor turbines and counter-rotating turbines
+with 2 rotors - one upwind and one downwind.
+Since the rotor usually spins at a low
+frequency, either the generator within the
+system must be made with the slow rotational
+frequency in mind or a separate gearbox installed
+between the two parts. The latter leads to
+additional potential problems with the system
+and to its size increase.
+The main disadvantage of HAWTs is the need
+for exceptionally sturdy blade and mast materials
+to be able to resist the wind; additionally, with
+current technology blades cannot be
+disassembled for transportation, limiting where a
+HAWT can be installed. However, the last 40 years show that horizontal axis wind turbines are
+easily scalable given proper materials, which makes them the most commercially viable.
+Figure 2. A photo of a HAWT assembly (gearbox,
+rotor shaft etc.) being lifted into position.
+Figure 1. Size comparison of the largest wind turbines across their history.
+VAWTs utilize the wind pushing on the rotor blades arranged around a vertical shaft. They
+are inherently less scalable, and are most often installed in households or on top of devices like
+lamp posts to provide some self-sufficiency. They can be classified into two main groups (fig. 3)
+- Savonius type and Darrieus type: blades of Savonius type VAWTs cover the entire surface
+"within" the turbine while blades in Darrieus type are located on a frame outlying of the shaft.
+Advantages include eliminating the need for specific orientation, which helps on sites
+where the wind direction changes often and makes it more viable to integrate VAWTs into
+buildings, and the ability to place the rest of the system (the gearbox and the generator) on the
+ground for ease of access.
+However, there are many downsides to the vertical positioning. Apart from significant
+torque fluctuations during one revolution, which is reduced greatly in modern VAWTs because
+of the helical design ("Twisted" Savonius and Gorlov types), all such turbines have a
+comparatively low power coefficient; since they rotate 360 degrees in the airflow, every side of
+the blades must be able to resist similar loads dynamically, and modelling such interactions may
+present a challenge for creating a VAWT without initial physical prototyping.
+Other concepted or implemented wind turbines that do not fit in the aforementioned
+categories include systems that would flex piezoelectric crystals or oscillate a magnet through
+coiled windings due to airflow, a "solar updraft tower" that would use sun-heated air from a
+reservoir to spin a turbine, and aerial wind turbines that would exploit the predictability and
+increased velocity of wind at high altitudes.
+Power Generation and Efficiency
+Kinetic energy is equal to ½*mass*velocity^2 for general purposes.
+E = ½*m*V^2
+The mass of air passing through a given area per second is equal to velocity*area*density.
+m(s) = V*A*p
+Thus, ideally the power of airflow through a given area is equal to
+½*area*density*velocity^3, which at sea level is roughly equal to 0.6*velocity^3 watts/m^2 of
+rotor area.
+P = ½*A*p*V^3
+Figure 3. VAWT subtypes. The helical turbine here (or Gorlov type) is also, in principle, a Darrieus type.
+While these formulas give us general wind power, they do not take into account the
+effectiveness of parts constituting the energy converter; the total formula is
+Pt = ½*Cg*Cb*Cp*A*p*V^3, where Cg is generator efficiency, Cb is gearbox efficiency and
+Cp is the coefficient of performance.
+Another approach is to evaluate power through the vector equation P = F*U, where F is the
+vector of the force exerted by the wind and v is the vector of the rotor's velocity.
+The velocity usually considered in such calculation is the blade tip speed U = w*r, where r is
+blade radius and w is rotation speed of the rotor (rad/s).
+For aerodynamic forces - drag and lift - we must instead use the relative velocity vector W
+= V - U, where V is the wind speed.
+In wind turbine physics those values are used after being non-dimensionalized, so we write
+CL = L/(½pAW^2) where L is lift force and CL is lift coefficient, and CD = D/(½*p*A*W^2) where
+D is drag force and CD is drag coefficient.
+Additionally, we use CP = P/(½*p*A*W^3) - the power coefficient, λ = U/V - the velocity
+ratio and γ = CD/CL.
+Thus, depending on the type of the turbine - whether it exploits drag or lift force - the
+equations can be written as follows, although drag force is present either way:
+P = ½*p*A*CD*(UV^2 - 2*VU^2 + V^3) or CP = CD*(λ - 2* λ^2 + λ^3) for drag
+P = ½*p*A*sqrt(U^2 + V^2)*(CL*U*V - CD*U^2) or CP = CL*sqrt(1+ λ^2)*(λ -γ* λ^2) for lift
+Through use of experimentally determined drag and lift coefficients in these theoretical
+formulas it has been shown that lift-based wind turbines are vastly more effective.
+Even these equations, however, disregard some forces such as induced drag.
+Figure 4. The histogram here shows experimental data, while curves are a distribution model for average wind speed.
+Additionally, Betz's law implies that no wind turbine may be more than 59.3% effective due to
+the fact that air still needs to flow after entering the turbine's space, and as such some of the
+energy of the wind is spent on producing the flow after the turbine. Furthermore, real wind
+turbines peak at 80% of that due to airflow "missing" the blades and generator/gearbox
+inefficiencies.
+Any deviation from "ideal" weather conditions or changes to the blade's surface will negatively
+impact efficiency. Obvious examples are hot air being less dense and thus producing less flow
+power, cold weather freezing parts of the mechanism or causing ice formation on the rotor;
+other factors may include flying wildlife causing damage to the blades.
