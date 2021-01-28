@@ -21,7 +21,8 @@ class Program(tk.Frame):
         ln['text'] = txt
 
     def get_given_text(self):
-        self.given_text_filename = filedialog.askopenfilename(initialdir=r'C:\Users\egors\OneDrive\Documents\GitHub\LanguageLearningHepler\texts\text.txt')
+        initial_txt_path = r'C:\\Users\\egors\\OneDrive\Documents\\GitHub\\LanguageLearningHepler\\texts\\text.txt'
+        self.given_text_filename = filedialog.askopenfilename(initialdir=initial_txt_path)
         
         self.write(self.top_line, 'File loaded')
         self.start_functional_part()
