@@ -27,6 +27,7 @@ def get_relevant(txtfreq, globrank, k):
     return ans
 
 '''
+
 def get_hlexis_rating(globrank, words):
     return 
 '''
