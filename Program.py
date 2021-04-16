@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog
-from lib import get_dist, get_importance, get_relevant
+from lib import get_dist, get_importance, get_relevant, get_meaningfulness
 
 class Program(tk.Frame):
     def __init__(self, master):
@@ -39,9 +39,10 @@ class Program(tk.Frame):
         #in construction
         text = open(self.given_text_filename, 'r', encoding='utf-8').read()
         self.distribution = get_dist(text)
-        self.write(self.bottom_text, '\n'.join(get_relevant(self.distribution, self.word_ranks, self.difficulty)))
+        self.meaningfulness = get_meaningfulness(text)
+        self.write(self.bottom_text, '\n'.join(get_relevant(self.distribution, self.word_ranks, self.meaningfulness, self.difficulty)))
 
     def dif(self, x):
         self.difficulty += x*(1/8)
         self.write(self.top_line, f'Difficlty: {self.difficulty}')
-        self.write(self.bottom_text, '\n'.join(get_relevant(self.distribution, self.word_ranks, self.difficulty)))
+        self.write(self.bottom_text, '\n'.join(get_relevant(self.distribution, self.word_ranks, self.meaningfulness, self.difficulty)))
