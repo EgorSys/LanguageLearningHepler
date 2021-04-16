@@ -1,13 +1,23 @@
 from nltk.probability import FreqDist
 from nltk.tokenize import word_tokenize
 from urllib.request import urlopen
+from gensim.models import Word2Vec
+with open(r"texts\text.txt", "r") as f:
+    sentences = [sentence.split() for sentence in f.readlines()]
+model = Word2Vec(sentences, # главный аргумент - массив с предложениями, предложение - массив со словами
+                 size=200, # размерность (количество координат в векторе), которая нам нужна
+                 window=5, # на каком расстоянии слова будут считаться похожими
+                 min_count=1, # будем добавлять слова, которые встретились хотя бы min_count раз
+                 workers=4) # запустим параллельно в 4 процесса
+
+
 
 def get_dist(text):
     #in comstruction
-
-    fdist = FreqDist()
-    for word in word_tokenize(text):
-        fdist[word.lower()] += 1
+    length = len(text)
+    fdist = FreqDist(word_tokenize(text))
+    for el in fdist:
+        fdist[el] /= length
     return fdist
 
 def get_importance():
@@ -18,7 +28,7 @@ def get_importance():
 def get_relevant(txtfreq, globrank, k):
     def measure(x):
         try:
-            return txtfreq[x]*(-abs(globrank[x]-int(k*len(globrank)))+(len(globrank)//2))
+            return (txtfreq[x]) * (-abs(globrank[x]-int(k*len(globrank)))+(len(globrank)//2))
         except KeyError:
             return float('-inf')
     ans = []
@@ -26,10 +36,5 @@ def get_relevant(txtfreq, globrank, k):
         ans.append(i)
     return ans
 
-'''
 
-def get_hlexis_rating(globrank, words):
-    return 
-'''
-
-#def needed_words(text)
+#def get_meaningfulness():

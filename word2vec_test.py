@@ -1,4 +1,12 @@
-import pandas as pd
 
-df = pd.read_csv('vectors\glove.6B.50d.txt', sep=" ", quoting=3, header=None, index_col=0)
-glove = {key: val.values for key, val in df.T.items()}
+with open(r"texts\text.txt", "r") as f:
+    sentences = [sentence.split() for sentence in f.readlines()]
+
+model = Word2Vec(sentences, # главный аргумент - массив с предложениями, предложение - массив со словами
+                 size=200, # размерность (количество координат в векторе), которая нам нужна
+                 window=5, # на каком расстоянии слова будут считаться похожими
+                 min_count=1, # будем добавлять слова, которые встретились хотя бы min_count раз
+                 workers=4) # запустим параллельно в 4 процесса
+
+print(model.wv['the'])
+
